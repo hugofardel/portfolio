@@ -51,9 +51,12 @@ const ProjectCard = ({ children, image, alt, title, link }) => {
 			<Content>
 				<h3>{title}</h3>
 				<P>{children}</P>
-				<a href={link} className="link">
-					Voir le projet <IconeLink />
-				</a>
+
+				{link && (
+					<a href={link} className="link">
+						Voir le projet <IconeLink />
+					</a>
+				)}
 			</Content>
 		</StyledProjectCard>
 	);

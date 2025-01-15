@@ -76,8 +76,8 @@ const Banner = () => {
 			</Info>
 
 			<Info>
-				<Header>6+</Header>
-				<InfoContent>Projets personnels</InfoContent>
+				<Header>3</Header>
+				<InfoContent>Projets déployés</InfoContent>
 			</Info>
 
 			<Info>
